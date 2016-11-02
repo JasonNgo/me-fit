@@ -6,7 +6,10 @@ target 'me-fit' do
   use_frameworks!
 
   # Pods for me-fit
-  pod 'Firebase'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
   pod 'SwiftKeychainWrapper'
+  pod 'FBSDKLoginKit'
 
 end
